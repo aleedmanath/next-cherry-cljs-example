@@ -541,6 +541,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cherry-cljs@npm:^0.0.0-alpha.60":
+  version: 0.0.0-mutable-alpha.53
+  resolution: "cherry-cljs@npm:0.0.0-mutable-alpha.53"
+  dependencies:
+    argparse: ^2.0.1
+    lodash: ^4.17.21
+  bin:
+    cherry: node_cli.js
+  checksum: 4665045e4b22fadc8cdf6a45003cff3c1050f8c27795f05d2c65c077ef6014c6b447a51a32c48e28ec048a450c1436da77e8e2ce34221cdcb8bdeb9b6602dbe4
+  languageName: node
+  linkType: hard
+
 "client-only@npm:0.0.1":
   version: 0.0.1
   resolution: "client-only@npm:0.0.1"
@@ -1652,6 +1664,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash@npm:^4.17.21":
+  version: 4.17.21
+  resolution: "lodash@npm:4.17.21"
+  checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
+  languageName: node
+  linkType: hard
+
 "loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
@@ -1749,6 +1768,7 @@ __metadata:
     "@types/node": 18.11.10
     "@types/react": 18.0.26
     "@types/react-dom": 18.0.9
+    cherry-cljs: ^0.0.0-alpha.60
     eslint: 8.29.0
     eslint-config-next: 13.0.6
     next: 13.0.6

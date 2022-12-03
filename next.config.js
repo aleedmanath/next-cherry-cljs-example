@@ -1,7 +1,11 @@
-/** @type {import('next').NextConfig} */
+const { withClojurescript } = require('./loader/next-plugin')
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  experimental: {
+    forceSwcTransforms: true,
+  }
 }
 
-module.exports = nextConfig
+module.exports = withClojurescript(nextConfig)
